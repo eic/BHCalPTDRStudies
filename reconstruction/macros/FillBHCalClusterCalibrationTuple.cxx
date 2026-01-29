@@ -53,8 +53,8 @@ struct Options {
   bool        do_progress;  // print progress through frame loop
   bool        do_clust_cut; // require sum of hcal or ecal cluster energy to be nonzero
 } DefaultOptions = {
-  "./forNeuDebug.epic25080e0510z0th33neu_merged.edm4eic.root",
-  "forNeuDebug.epic25080e0510z0th33neu.tuple.root",
+  "root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.12.0/epic_craterlake/SINGLE/pi+/5GeV/45to135deg/pi+_5GeV_45to135deg.0099.eicrecon.edm4eic.root",
+  "test.tuple.root",
   "GeneratedParticles",
   "HcalBarrelClusters",
   "EcalBarrelClusters",
@@ -62,7 +62,7 @@ struct Options {
   "EcalBarrelScFiRecHits",
   "EcalBarrelImagingLayers",
   "EcalBarrelImagingRecHits",
-  false,
+  true,
   false
 };
 
